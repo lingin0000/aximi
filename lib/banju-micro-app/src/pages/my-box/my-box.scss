@@ -1,0 +1,8 @@
+.page { padding: 16px; min-height: 100vh; }
+.header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px; }
+.header-title { font-size: 20px; font-weight: 600; font-family: var(--font-heading); color: var(--accent); }
+.header-count { font-size: 13px; color: var(--text-muted); }
+.empty-state { text-align: center; padding-top: 80px; }
+.empty-icon { font-size: 48px; display: block; margin-bottom: 12px; }
+.empty-text { font-size: 15px; color: var(--text-muted); display: block; }
+.empty-hint { font-size: 13px; color: var(--text-muted); margin-top: 6px; display: block; }

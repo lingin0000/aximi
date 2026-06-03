@@ -1,0 +1,11 @@
+{
+  "extends": "../../tsconfig.bundler.json",
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["./src/*"],
+      "@banju/shared": ["../../packages/shared/src/index.ts"],
+      "@banju/shared/*": ["../../packages/shared/src/*"]
+    }
+  },
+  "include": ["src"]
+}

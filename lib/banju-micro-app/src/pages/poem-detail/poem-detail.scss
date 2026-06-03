@@ -1,0 +1,116 @@
+.page {
+  padding: 16px;
+  min-height: 100vh;
+}
+
+.empty {
+  text-align: center;
+  margin-top: 80px;
+  color: var(--text-muted);
+  font-size: 14px;
+}
+
+.poem-header {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.poem-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--accent);
+  font-family: var(--font-heading);
+}
+
+.poem-info {
+  font-size: 13px;
+  color: var(--text-secondary);
+  margin-top: 4px;
+}
+
+.poem-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.poem-tag {
+  background: var(--bg-tag);
+  padding: 3px 10px;
+  border-radius: 12px;
+}
+
+.poem-tag-text {
+  font-size: 12px;
+  color: var(--accent);
+}
+
+.poem-content {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.poem-line {
+  font-size: 18px;
+  line-height: 30px;
+  color: var(--text-primary);
+  font-family: var(--font-poem);
+  display: block;
+  margin-bottom: 4px;
+}
+
+.poem-actions {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.action-btn {
+  background: var(--bg-tag);
+  padding: 8px 16px;
+  border-radius: 20px;
+}
+
+.action-text {
+  font-size: 14px;
+  color: var(--text-secondary);
+}
+
+.poem-section {
+  margin-bottom: 16px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 0;
+}
+
+.section-title {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--accent);
+}
+
+.section-arrow {
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+.section-text {
+  font-size: 15px;
+  line-height: 24px;
+  color: var(--text-secondary);
+  margin-top: 8px;
+  display: block;
+}

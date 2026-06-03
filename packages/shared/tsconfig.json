@@ -1,0 +1,15 @@
+{
+  "extends": "../../tsconfig.node.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "paths": {
+      "@banju/shared": ["./src/index.ts"],
+      "@banju/shared/types": ["./src/types/index.ts"],
+      "@banju/shared/api": ["./src/api/index.ts"],
+      "@banju/shared/utils": ["./src/utils/index.ts"]
+    }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "banju-monorepo",
+  "private": true,
+  "version": "0.1.0",
+  "description": "半句 (Banju) — AI 诗词助手全端项目",
+  "scripts": {
+    "dev:server": "pnpm --filter banju-server dev",
+    "dev:web": "pnpm --filter banju-web dev",
+    "dev:admin": "pnpm --filter banju-admin dev",
+    "dev:app": "pnpm --filter banju-app start",
+    "dev:micro": "pnpm --filter banju-micro-app dev:weapp",
+    "build:server": "pnpm --filter banju-server build",
+    "build:web": "pnpm --filter banju-web build",
+    "build:admin": "pnpm --filter banju-admin build",
+    "build:all": "pnpm -r --filter !banju-app --filter !banju-micro-app build",
+    "lint": "pnpm -r lint",
+    "seed": "pnpm --filter banju-server seed",
+    "clean": "pnpm -r exec rm -rf node_modules dist"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@nestjs/core",
+      "@swc/core",
+      "esbuild",
+      "bcrypt",
+      "@parcel/watcher"
+    ]
+  },
+  "engines": {
+    "node": ">=18",
+    "pnpm": ">=9"
+  },
+  "packageManager": "pnpm@10.26.2"
+}
