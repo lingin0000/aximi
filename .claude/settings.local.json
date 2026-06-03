@@ -7,5 +7,8 @@
       "Bash(npx nest *)",
       "Bash(npx tsgo *)"
     ]
+  },
+  "env": {
+    "CLAUDE_CODE_ATTRIBUTION_HEADER": "0"
   }
 }
